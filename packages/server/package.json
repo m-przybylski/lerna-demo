@@ -1,0 +1,18 @@
+{
+  "name": "@cantor/server",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "start": "nodemon --config nodemon.json",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "@cantor/common": "1.0.0",
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "4.11.1"
+  }
+}

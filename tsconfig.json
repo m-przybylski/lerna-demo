@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "es6",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "baseUrl": "./",
+    "paths": {
+      "@cantor/common": ["packages/common/src"],
+      "@cantor/common/*": ["packages/common/src/*"]
+    }
+  },
+}
